@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+#include "ring-buffer.h"
 #include "sha-256.h"
 
 #define DIFFICULTY 2 // number of bytes of leading 0's
